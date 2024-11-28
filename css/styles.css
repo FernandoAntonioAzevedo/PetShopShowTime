@@ -108,6 +108,26 @@ header .header_right .rel .total {
 }
 
 .banner .banner_txt {
-    width: 36%;
+    width: 33%;
     height: 30%;
+    position: absolute;
+    top: 0;
+    left: 3%;
+    bottom: -15px;
+    margin: auto;
+}
+
+
+.banner .banner_txt p {
+    font-size: 15px;
+    font-weight: 600;
+    padding-bottom: 25px;
+    letter-spacing: 2px;
+    color: #272727;
+} 
+
+.banner .banner_txt h1 {
+    font-size: 58px;
+    line-height: 1.1;
+    color: #272727;
 }

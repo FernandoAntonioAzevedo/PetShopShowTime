@@ -31,7 +31,7 @@ header {
 }
 
 header .logo {
-    width: 150px;
+    width: 160px;
 }
 
 header .logo img {
@@ -130,4 +130,222 @@ header .header_right .rel .total {
     font-size: 58px;
     line-height: 1.1;
     color: #272727;
+}
+/* Banner Fim */
+
+/* Facilidades Início */
+.facility {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.w-70 {
+    width: 84%;
+    margin: auto;
+}
+
+.facility .f_item {
+    width: 220px;
+    height: 255px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    color: #ffff;
+}
+
+.facility .f_item svg {
+    position: absolute;
+}
+
+.facility .f_item i {
+    z-index: 99;
+    font-size: 28px;
+}
+
+.facility .f_item h3 {
+    z-index: 99;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1.1;
+    padding-top: 12px;
+}
+/* Facilidades Fim */
+
+/* 1º Compre por Categoria Início */
+#shop_category {
+    padding-top: 15px;
+    padding-bottom: 40px;
+}
+
+.heading {
+    text-align: center;
+}
+
+.heading h3 {
+    font-size: 27px;
+    margin-bottom: 13px;
+    color: #272727;
+}
+
+.paw {
+    text-align: center;
+    position: relative;
+    display: block;
+    width: 20%;
+    margin: auto;
+    font-size: 19px;
+}
+
+.paw::before {
+    content: '';
+    width: 100px;
+    height: 1px;
+    background-color: #000;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+}
+
+.paw::after {
+    content: '';
+    width: 100px;
+    height: 1px;
+    background-color: #000;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+}
+
+.shop_category .food {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.shop_category .food .food_items {
+    width: 49%;
+    background-color: #fff;
+    box-shadow: 0 0 16px rgba(0 0 0 / 5%);
+    border-radius: 12px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+}
+
+.shop_category .food .food_items .img {
+    width: 450px;
+}
+
+.shop_category .food .food_items .img img{
+    width: 100%;
+}
+
+.food_details {
+    padding-left: 25px;
+    padding-top: 15px;
+}
+
+.food_details .review {
+    padding-left: 25px;
+    padding-top: 15px;
+}
+
+.food_details .review i {
+    color: #f4b639;
+}
+
+.food_details .review h4 {
+    font-size: 18px;
+    padding: 10px 0;
+}
+
+.food_details .review h3 {
+    font-size: 17px;
+}
+
+.food_details .review p {
+    font-size: 15px;
+    color: gray;
+    line-height: 1.7;
+    padding: 16px 0;
+    padding-right: 15px;
+}
+
+button {
+    margin: 15px 0;
+    background: #f4b639;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px 15px;
+    border-radius: 3px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #000;
+    color: #fff;
+}
+/* 1º compre por categoria FIM */
+
+/* 2º compre por categoria INÍCIO */
+.shop_category .pet_list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.shop_category .pet_list .single_pet {
+    width: 20%;
+    text-align: center;
+}
+
+.single_pet .img {
+    width: 100%;
+    position: relative;
+}
+
+.single_pet .img img {
+    width: 98%;
+    z-index: 9;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.single_pet .img svg {
+    position: absolute;
+    top: -15px;
+    left: -20px;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 115%;
+    z-index: -9;
+}
+
+.single_pet h4 {
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.single_pet h4:hover {
+    color: #f4b639;
+}
+
+.single_pet .img img:hover {
+    scale: 1.1;
 }

@@ -441,6 +441,7 @@ button:hover {
     justify-content: center;
     align-items: center;
     text-align: center;
+    color: #fff;
 }
 
 .hidden_icons {
@@ -474,12 +475,62 @@ button:hover {
     background-color: #80808039;
 }
 
-.f_items .fp_details {
+.fp_items .fp_details {
     text-align: center;
     padding-bottom: 30px;
 }
 
-.f_items .fp_details .reviews {
+.fp_items .fp_details .reviews {
     color: #f4b639;
     font-size: 14px;
+}
+
+.fp_items .fp_details .sub_category {
+    color: gray;
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+.fp_items .fp_details {
+    border-top: 1px solid #9696961b;
+}
+
+.fp_items .fp_details h6 {
+    font-size: 16px;
+    font-weight: 500;
+    padding: 8px 0;
+}
+
+.fp_items .fp_details .price del {
+    font-size: 14px;
+}
+
+.fp_items .fp_details .price span {
+    font-size: 17px;
+}
+
+/* Dois Banner simultâneos */ 
+.two_banner {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.two_banner .img {
+    padding: 28px;
+    position: relative;
+}
+
+.two_banner .img {
+    width: 100%;
+}
+
+.two_banner .img .txt {
+    position: absolute;
+    top: -10px;
+    left: 15%;
+    bottom: 0;
+    margin: auto;
+    width: 50%;
+    height: 100px;
 }

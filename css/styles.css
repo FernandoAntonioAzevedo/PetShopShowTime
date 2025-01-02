@@ -513,7 +513,8 @@ button:hover {
 .two_banner {
     display: flex;
     justify-content: space-between;
-
+    width: 80vh;
+  
 }
 
 .two_banner .img {
@@ -533,4 +534,44 @@ button:hover {
     margin: auto;
     width: 50%;
     height: 100px;
+}
+
+.two_banner .img .txt h5 {
+    font-size: 24px;
+    font-weight: lighter;
+    padding-bottom: 30px;
+}
+
+.two_banner .img .txt h4 {
+    font-size: 35px;
+    line-height: 1.1;
+    color: #272727;
+    font-weight: bolder;
+}
+
+.two_banner .img:first-child {
+    color: #ffffff;
+}
+
+.two_banner .img:first-child h4 {
+    color: #ffffff;
+}
+
+/* Novidades */
+.latest_pro .latest_product  {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.latest_pro .latest_product .lp_items {
+    width: 30%;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.latest_pro .latest_product .lp_items .img {
+    width: 40%;
 }

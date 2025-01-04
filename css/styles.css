@@ -566,12 +566,90 @@ button:hover {
 
 .latest_pro .latest_product .lp_items {
     width: 30%;
-    position: relative;
     overflow: hidden;
-    cursor: pointer;
-    transition: 0.3s;
+    box-shadow: 0 0 16px rgba(0 0 0 / 5%);
+    background-color: #ffffff;
+    display: flex;
+    margin: 12px;
+    border-radius: 12px;
+    
 }
 
 .latest_pro .latest_product .lp_items .img {
+    cursor: pointer;
     width: 40%;
+    transition: 0.3s;
+    position: relative;
+    overflow: hidden;
 }
+
+.latest_pro .latest_product .lp_items .img img {
+    width: 100%;
+  
+    
+}
+
+.latest_pro .latest_product .lp_items .img img:hover {
+    scale: 0.9;
+    transition: 0.4s;
+}
+
+.latest_pro .latest_product .lp_items .img .tag {
+    width: 27px;
+    height: 27px;
+    background-color: #57aa5e;
+    font-size: 11px;
+    font-weight: 600;
+    color: #ffffff;
+    padding: 15px;
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.latest_pro .latest_product .lp_items .hidden_icons {
+    position: absolute;
+    right: -55px;
+    top: 10px;
+    cursor: pointer;
+}
+
+.latest_pro .latest_product .lp_items .img:hover .hidden_icons{
+    right: 0;    
+}
+
+.latest_pro .latest_product .lp_items .lp_details {
+    width: 60%;
+    padding-left: 15px;
+    padding-top: 30px;
+}
+
+.latest_pro .latest_product .lp_items .lp_details h4 {
+    font-size: 15px;
+    color: #272727;
+    padding-right: 15px;
+    letter-spacing: 0.4s;
+    font-weight: 500;
+}
+
+.latest_pro .latest_product .lp_items .lp_details .review {
+    color: #f4b639;
+    font-size: 15px;
+}
+
+.latest_pro .latest_product .lp_items .lp_details .price {
+    padding: 14px 0;
+    font-size: 16px;
+    font-weight: 500;
+    color: #272727;
+}
+
+.latest_pro .latest_product .lp_items .lp_details .price del {
+    font-size: 13px;
+}
+
